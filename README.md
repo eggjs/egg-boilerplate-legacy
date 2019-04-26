@@ -25,5 +25,19 @@ install helper for legacy egg boilerplate.
 ## Usage
 
 ```bash
-npm i egg-boilerplate-legacy --save
+$ npx egg-boilerplate-legacy --package=egg-boilerplate-empty showcase
+```
+
+For more details:
+
+```bash
+$ npx egg-boilerplate-legacy --help
+
+  --verbose       run at verbose mode, will print debug log                                                    [boolean]
+  --baseDir       directory of application, default to `process.cwd()`                                          [string]
+  --npm           npm cli, tnpm/cnpm/npm, will auto guess                                                       [string]
+  --registry, -r  npm registry, support china/npm/custom, default to auto detect                                [string]
+  --force, -f     force to override directory                                                                  [boolean]
+  --package       boilerplate name                                                                              [string]
+  --template      boilerplate package name                                                                      [string]
 ```
